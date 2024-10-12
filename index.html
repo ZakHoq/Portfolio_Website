@@ -9,30 +9,34 @@
         <link rel="icon" href="assets/img/st,small,507x507-pad,600x600,f8f8f8.jpg">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "Stylesheet" href="Style Sheet/Stylesheet.css">
     </head>
     <body>
-        <header>
-     <center><h1>Zakaria Hoque Portfolio Website</h1></center> 
+
+    <header class="header">
+     <h1 class="title">Zakaria Hoque Portfolio Website</h1> 
      
      <!--This is the navigation list for webpages, each item is a link-->
-     <nav>
-        <h1>Portfolio Pages</h1>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="html/my_resume.html">My Resume</a></li>
-        <li><a href="html/my_fun_facts.html">My Fun Facts</a></li>
+     <nav class="navbar">
+        <h1 class="title">Portfolio Pages</h1>
+    <ul >
+        <li class="button"><a href="index.html">Home</a></li>
+        <li class="button"><a href="html/my_resume.html">My Resume</a></li>
+        <li class="button"><a href="html/my_fun_facts.html">My Fun Facts</a></li>
     </ul>
     </nav>
 </header>
 
     <!--Image of myself-->
-<center><img src="assets/img/1676173847801.jpg" alt=""></center>
-<center><quote> "Genius lives one story above madness" - Arthur Schopenhauer </quote></center>
+<figure class="image">
+<img src="assets/img/1676173847801.jpg" alt="" width="400" height="450">
+<quote> "Genius lives one story above madness" - Arthur Schopenhauer </quote>
+</figure>
 
 <!--About me paragraph-->
-<article>
-        <center><h2>About Me</h2></center>
-        <p> My name is Zakaria Hoque and I am a senior at Oakland University.
+<article class="article">
+        <h2 class="title">About Me</h2>
+        <p class="paragraph"> My name is Zakaria Hoque and I am a senior at Oakland University.
         I am an IT major with a focus in cyber security.
         I was born in Royal Oak, Michigan and am Bengali-American, and a first generation American. I currently work at auburn hills
         public library as an IT assistant (although I do a lot more admin work than an normal assistant). Prior to this job, I worked at a 
@@ -42,23 +46,23 @@
 and <a href="html/my_fun_facts.html">Page3</a>    
  </p>
 </article>
-
+<figure class="degreebar">
  <!--Progress bar-->
  <label for="Degree">Degree Progress:</label>
-
  <progress max = "128" value ="96"></progress>
 <!--an extra label to show numerically how many credits I have left-->
     <label for="Progress">32 credits of 128 credits left</label>
+</figure>
 
 <!--copyright and contact info-->
-    <footer>
+    <footer class="footer">
 <hr>
 <ul>
-    <li>
-        <email> Email: zakariahoque14@gmail.com</email>
+    <li class="button">
+        <email> Email: <a href = "mailto: zakariahoque14@gmail.com">zakariahoque14@gmail.com</a></email>
    
     </li>
-    <li> 
+    <li class="button"> 
         <github>Github: <a href="ZakHoq">ZakHoq</a></github>
     </li>
 </ul>

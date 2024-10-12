@@ -1,0 +1,125 @@
+
+html,body{
+    height:100%;
+    width:98%;
+    background-image: linear-gradient(#ebf4f5, #b5c6e0);
+    background-attachment: fixed;
+}
+
+
+.navbar{
+    position: absolute;
+    left: 50px;
+   top: 0px;
+}
+.image{
+    position: relative;
+    right: -1000px;
+    top: 250px;
+    text-align: center;
+    width: 150px;
+}
+.paragraph{
+font-family: 'Times New Roman', Times, serif;
+font-size: medium;
+}
+
+.button{
+    background-color: #3c3f3e; 
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.button:hover{
+    background-color: transparent;
+        color: white; 
+}
+.degreebar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+
+.article{
+    position: relative;
+    top: -150px;
+    left: 150px;
+    text-align: center;
+    width: 500px;
+
+}
+.article2{
+    position: relative;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+}
+.article3{
+    position: relative;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+}
+
+.article4{
+    position: relative;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1500px;
+}
+
+.article5{
+    position: relative;
+    top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+}
+
+.article6{
+    position: relative;
+    top: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1000px;
+}
+table, th, td {
+    border: 1px solid;
+  }
+.header{
+    text-align: center;
+}
+
+.footer{
+    position: relative;
+    bottom: -300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+}
+
+.title{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+
+
