@@ -1,4 +1,6 @@
 
+/*added this to effect the html and body of each page, originally my material caused the margins to expand 
+and the gradient background could not fill the empty space, by doing this the gradient fills the whole background*/
 html,body{
     height:100%;
     width:98%;
@@ -6,12 +8,14 @@ html,body{
     background-attachment: fixed;
 }
 
-
+/*my navbar class, I kept the position absolute as I wanted to ensure it stayed exactly in the laft hand corner on everypage and force other containers to format around it*/
 .navbar{
     position: absolute;
     left: 50px;
    top: 0px;
 }
+
+/*class made specifically for the image of me on the landing page*/
 .image{
     position: relative;
     right: -1000px;
@@ -19,11 +23,14 @@ html,body{
     text-align: center;
     width: 150px;
 }
+
+/*paragraph class*/
 .paragraph{
 font-family: 'Times New Roman', Times, serif;
 font-size: medium;
 }
 
+/*a class I made to make links look like buttons, it makes them appear as gray boxes with a white border, the text is aligned in the center*/
 .button{
     background-color: #3c3f3e; 
   border-style: solid;
@@ -37,16 +44,20 @@ font-size: medium;
   transition: 0.3s;
 }
 
+/*this is how I make the cool fade tansition when you hover over the buttons*/
 .button:hover{
     background-color: transparent;
         color: white; 
 }
+
+/*simple calss for my degreebar section*/
 .degreebar{
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     
 }
 
+/*classes for articles to make some of the containers fit on screen more cohesively*/
 .article{
     position: relative;
     top: -150px;
@@ -55,6 +66,7 @@ font-size: medium;
     width: 500px;
 
 }
+
 .article2{
     position: relative;
     top: 10px;
@@ -98,13 +110,19 @@ font-size: medium;
     text-align: center;
     width: 1000px;
 }
+
+/*styles the table elements, creating borders between the cells*/
 table, th, td {
     border: 1px solid;
   }
+
+ 
+  /*header class*/
 .header{
     text-align: center;
 }
 
+/*class for my footer*/
 .footer{
     position: relative;
     bottom: -300px;
@@ -116,6 +134,7 @@ table, th, td {
 
 }
 
+/*class for titles*/
 .title{
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
